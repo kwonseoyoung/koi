@@ -1,0 +1,152 @@
+html,body {
+  padding:0px;
+  margin: 0px;
+  height: 95%;
+}
+
+.carousel {
+    height: 85%;
+}
+
+.item, .active, .carousel-inner{
+    height: 100%;
+}
+
+
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px;
+}
+
+html{
+	font-family: "Ikaros sans", sans;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+
+body{
+  margin:0
+	}
+
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 100px;
+      text-decoration: none;
+      padding-top: 5px;
+      padding-bottom: 0px;
+  }
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio{
+  background-color: white;
+  padding-top: 10px;
+  opacity: 0.75;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #436EEE;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0% 70% 2% 0%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.life{
+  padding-left: 600px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('GWC2 (1).mp4') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
